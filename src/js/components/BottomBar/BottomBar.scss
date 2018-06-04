@@ -1,0 +1,21 @@
+.bar {
+	display: flex;
+	background: black;
+	font-size: 2rem;
+	line-height: 3rem;
+	padding: 1rem;
+	justify-content: space-between;
+	box-shadow: 0 0 30px 7px rgba(black, 0.3)
+}
+
+.differenceNegative {
+	color: #ff2222;
+}
+
+.differencePositive {
+	color: #22ff22;
+	&:before {
+		content: '+';
+		margin-left: 0.4em;
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"balance": 1000,
+
+	"costs": {
+		"entries": [
+			{"label": "Water Bill", "value": 231, "kind": "yearly"},
+			{"label": "Trash Bill", "value": 457, "kind": "yearly"},
+			{"label": "Taxes", "value": 400, "kind": "yearly"},
+
+			{"label": "Rent", "value": 500, "kind": "monthly"},
+			{"label": "Insurance", "value": 100, "kind": "monthly"},
+			{"label": "Transportation", "value": 85, "kind": "monthly"},
+			{"label": "Phone", "value": 20, "kind": "monthly"},
+
+			{"label": "Food", "value": 100, "kind": "weekly"},
+
+			{"label": "Coffe", "value": 10, "kind": "daily"}
+		]
+	},
+
+	"incomes": {
+		"entries": [
+			{"label": "Salary", "value": 2000, "kind": "monthly"},
+			{"label": "Tax Refund", "value": 50, "kind": "monthly"}
+		]
+	},
+
+	"targets": {
+		"runaway": [{
+			"target": 60,
+			"minimal": 30,
+			"kind": "daily"
+		}]
+	}
+}
+

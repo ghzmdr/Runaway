@@ -1,0 +1,21 @@
+@mixin text-aliasing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin underline {
+	position: relative;
+	z-index: 0;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+		background: rgba(black, 0.2);
+		height: 0.3em;
+		z-index: -1;
+	}
+}

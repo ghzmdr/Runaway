@@ -1,0 +1,62 @@
+@import '../../../scss/mixins.scss';
+
+.stats {
+	display: block;
+	font-size: 2rem;
+	background: #3c3c3c;
+	padding: 1.2rem 0;
+	min-width: 25rem;
+	text-align: center;
+
+	margin: 0 2rem;
+	border-radius: 3px;
+	box-shadow: 0 0 30px rgba(black, 0.3)
+}
+
+.title {
+	margin: 0 0 2rem;
+	padding: 0 1rem;
+	display: inline-block;
+	text-align: center;
+	@include underline;
+}
+
+.table {
+	width: 100%;
+	borer: none;
+	border-collapse: collapse;
+}
+
+.row {
+	height: 4rem;
+	line-height: 4rem;
+
+	&:nth-child(even) {
+		background: rgba(white, 0.1);
+
+		.secondaryValue {
+			border-left-color: #3c3c3c;
+		}
+	}
+}
+
+.label, .value {
+	line-height: inherit;
+}
+
+.label {
+	text-align: left;
+	padding: 0 2rem 0 1rem;
+}
+
+.value {
+	text-align: right;
+	padding-right: 1rem;
+}
+
+.secondaryValue {
+	text-align: right;
+	border-left: 2px solid rgba(white, 0.1);
+	padding-right: 1rem;
+	padding-left: 0.6rem;
+}
