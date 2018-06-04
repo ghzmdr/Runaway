@@ -2,9 +2,10 @@
 
 .stats {
 	display: block;
+	flex-shrink: 1;
 	font-size: 2rem;
 	background: #3c3c3c;
-	padding: 1.2rem 0;
+	padding: 1.2rem 0 0;
 	min-width: 25rem;
 	text-align: center;
 
