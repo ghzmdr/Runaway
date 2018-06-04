@@ -10,7 +10,7 @@ module.exports = {
 
   entry: [
     'react-hot-loader/patch',
-    './src/js/main.js'
+    './src/main.js'
   ],
 
   module: {

@@ -2,7 +2,7 @@ import round from '../utils/round'
 
 const sumValues = (acc, entry) => acc + entry.value
 
-const Aggregate = ({entries}) => [{
+const Aggregate = (entries) => [{
 	label: 'Daily',
 	kind: 'daily',
 	value: round(entries.filter(e => e.kind === 'daily').reduce(sumValues, 0)),

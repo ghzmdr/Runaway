@@ -25,12 +25,11 @@
 		]
 	},
 
-	"targets": {
-		"runaway": [{
-			"target": 60,
-			"minimal": 30,
-			"kind": "daily"
-		}]
-	}
+	"targets": [{
+		"target": 60,
+		"minimal": 30,
+		"kind": "daily",
+		"to": "runaway"
+	}]
 }
 
